@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #858585;
+    --secondary-color: #FFFFFF;
+    --tertiary-color: #006400;	
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--tertiary-color);
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+header {
+    display: flex;
+    padding: 20px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url(../images/pexels-iconcom-479444.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 48px;
+    color: var(--tertiary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 12px 20px;
+    font-weight: bold;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(../images/pexels-iconcom-479444.jpg);
+    background-size: cover;
+    background-position: 800%;
+    background-attachment: fixed;
+}
+
+.hero-motto {
+    opacity: 1;
+    width: 40%;
+    text-align: left;
+    margin: 15%;
+}
+
+.hero-motto h2 {
+    font-style: italic;
+    font-size: 30px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
