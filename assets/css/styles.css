@@ -62,6 +62,7 @@ header nav ul li a {
 .hero {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     background-image: url(../images/pexels-iconcom-479444.jpg);
     background-size: cover;
@@ -70,10 +71,9 @@ header nav ul li a {
 }
 
 .hero-motto {
-    opacity: 1;
-    width: 40%;
-    text-align: left;
-    margin: 15%;
+    width: 20%;
+    text-align: start;
+    margin: 10%;
 }
 
 .hero-motto h2 {
@@ -81,3 +81,8 @@ header nav ul li a {
     font-size: 30px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
+
+p {
+    font-size: 18px;
+}
+
