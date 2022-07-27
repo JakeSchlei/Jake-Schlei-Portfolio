@@ -154,3 +154,39 @@ p {
     text-decoration: none;
     list-style: none;
 }
+
+/* Contact Me */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url(../images/pexels-iconcom-479444.jpg);
+    background-size: cover;
+    background-position: 80%;
+}
+
+footer h3 {
+    font-size: 28px;
+    color: var(--tertiary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
