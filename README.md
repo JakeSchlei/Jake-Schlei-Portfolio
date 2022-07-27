@@ -8,6 +8,9 @@ To display my projects and to get to know me!
 
 *CSS
 
+### GitHub Pages link to my portfolio:
+https://jakeschlei.github.io/Jake-Schlei-Portfolio/
+
 ### Screenshot
 ![screencapture-file-C-Users-Jake-Documents-bootcamp-stuff-Homework-Jake-Schlei-Portfolio-index-html-2022-07-26-22_07_34](https://user-images.githubusercontent.com/108429837/181165946-43480174-971a-412b-b21c-cc9b3c81d07e.png)
 
