@@ -26,6 +26,9 @@ header {
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 header h1 {
@@ -64,7 +67,7 @@ header nav ul li a {
 header nav ul li a:hover {
     background: var(--tertiary-color);
     color: var(--secondary-color);
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 /* Hero Start */
@@ -106,8 +109,7 @@ p {
 
 .section-title {
     padding: 30px;
-    margin: 30px;
-    text-align: center;
+    margin: 30px; 
     width: 100%;
     font-size: 48px;
     color: var(--tertiary-color);
@@ -118,4 +120,37 @@ p {
     padding: 30px;
     font-size: 25px;
     text-align: center;
+}
+
+/* My Work */
+
+.work {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.work img {
+    opacity: 0.4;
+
+   
+}
+
+.work img:hover {
+    opacity: 1;
+}
+
+/* Skills */
+.my-skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-skills ul li {
+    margin: 20px 0 20px 30px;
+    padding: 20px;
+    font-size: 25px;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
 }
