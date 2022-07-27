@@ -29,6 +29,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 99999;
 }
 
 header h1 {
@@ -97,26 +98,28 @@ p {
     font-size: 18px;
 }
 
-/* About Me */
-
-.bio {
+section {
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
 }
 
 .column {
     flex: 50%;
 }
-
 .section-title {
     padding: 30px;
-    margin: 30px; 
-    width: 100%;
+    margin: 30px 0; 
     font-size: 48px;
     color: var(--tertiary-color);
     border-right: 3px solid;
 }
+.img-column, .img-column iframe {
+    text-align: center;
+}
+/* About Me */
 
-.bio p {
+#about-me p {
     padding: 30px;
     font-size: 25px;
     text-align: center;
@@ -124,29 +127,23 @@ p {
 
 /* My Work */
 
-.work {
-    display: flex;
-    justify-content: space-around;
-}
 
 
-.work img {
+
+
+#my-work img {
     opacity: 0.4;
 
    
 }
 
-.work img:hover {
+#my-work img:hover {
     opacity: 1;
 }
 
 /* Skills */
-.my-skills {
-    display: flex;
-    justify-content: space-between;
-}
 
-.my-skills ul li {
+#skills ul li {
     margin: 20px 0 20px 30px;
     padding: 20px;
     font-size: 25px;
@@ -156,10 +153,11 @@ p {
 }
 
 /* Contact Me */
-.contact {
-    display: flex;
-    justify-content: space-between;
+
+iframe {
+    margin: 0 auto;
 }
+
 
 
 
@@ -194,4 +192,11 @@ footer h3 {
 footer div {
     line-height: 1.5;
     text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+    
 }
