@@ -156,6 +156,10 @@ p {
 }
 
 /* Contact Me */
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
@@ -177,6 +181,7 @@ footer {
     background-image: url(../images/pexels-iconcom-479444.jpg);
     background-size: cover;
     background-position: 80%;
+    padding: 15px;
 }
 
 footer h3 {
