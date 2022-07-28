@@ -148,16 +148,15 @@ section {
     padding: 5%;
     width: 80%;
 } */
-
-.main-proj:hover .project-desc {
+/* 
+/* .main-proj:hover .project-desc {
     opacity: 1;
-    z-index: 2;
-}
+    /* z-index: 2; */
 
-.main-proj:hover {
+/* .main-proj:hover {
     box-shadow: 5px 5px 10px black;
     transform: scale(1.05);
-}
+} */
 
 #my-work img {
     opacity: 0.4;
